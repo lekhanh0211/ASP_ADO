@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="Asp_ADOModelStoreContainer" CdmEntityContainer="Asp_ADOEntities">
+    <EntitySetMapping Name="Category">
+      <EntityTypeMapping TypeName="Asp_ADOModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CatId" ColumnName="CatId" />
+          <ScalarProperty Name="CatName" ColumnName="CatName" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Product">
+      <EntityTypeMapping TypeName="Asp_ADOModel.Product">
+        <MappingFragment StoreEntitySet="Product">
+          <ScalarProperty Name="ProId" ColumnName="ProId" />
+          <ScalarProperty Name="ProName" ColumnName="ProName" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+          <ScalarProperty Name="Producer" ColumnName="Producer" />
+          <ScalarProperty Name="yearMaking" ColumnName="yearMaking" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="CategoryId" ColumnName="CategoryId" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
